@@ -22,10 +22,8 @@ public class TweetController {
     @RequestMapping("/")
     public String hello(@RequestParam(defaultValue = "Tajniki SpringMVC4") String search, Model model){
         SearchResults results = twitter.searchOperations().search(search);
-        List<String> tweets = results.getTweets()
-                .stream()
-                .map(Tweet::getText)
-                .collect(Collectors.toList());
+        List<Tweet> tweets = results.getTweets();
+        model.addAttribute("search", search);
         model.addAttribute("tweets", tweets);
         return "resultPage";
     }

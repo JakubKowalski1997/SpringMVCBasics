@@ -1,0 +1,35 @@
+[33mcommit 4563a28ca8ebac0a4e2c33953a0ca87fe5697fca[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Sat Apr 7 11:53:38 2018 +0200
+
+    Basics of Twitter Api search
+
+[33mcommit 283b79776e5b4f7a5f0329e2bfa4434daee4e43d[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Sat Apr 7 10:20:05 2018 +0200
+
+    Default value in RequestParam
+
+[33mcommit ea2b43f31c84ae0d17a50723013ad559ed4ff15d[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Sat Apr 7 10:17:41 2018 +0200
+
+    RequestParam learning
+
+[33mcommit 0bb95960bb638b62d73276ee9d50b97302f00375[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Sat Apr 7 10:11:39 2018 +0200
+
+    Basics of ViewReslover
+
+[33mcommit 48ec9b9eba9dda3a30e005170fd27d7849fba484[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Thu Apr 5 10:38:46 2018 +0200
+
+    Gradle wrapper added
+
+[33mcommit 64e4d9c19b556ea18f0007b894efa601c6ab8f5c[m
+Author: JakubKowalski <kubabartek1@op.pl>
+Date:   Thu Apr 5 10:32:41 2018 +0200
+
+    First commit of project made with InteliJ SpringInitializer
