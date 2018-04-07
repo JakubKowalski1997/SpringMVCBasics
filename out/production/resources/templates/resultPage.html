@@ -3,9 +3,11 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Witaj w Thymeleaf</title>
+    <title>Witaj w Twitterze</title>
 </head>
 <body>
-    <span th:text="${message}">Witaj świecie!</span>
+    <ul>
+        <li th:each="tweet : ${tweets}" th:text="${tweet}">Jakis tweet</li>
+    </ul>
 </body>
 </html>
