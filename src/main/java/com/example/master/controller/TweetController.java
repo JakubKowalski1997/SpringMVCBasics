@@ -36,7 +36,7 @@ public class TweetController {
     @RequestMapping(value = "postSearch", method = RequestMethod.POST)
     public String postSearch(HttpServletRequest request, RedirectAttributes redirectAttributes){
         String search = request.getParameter("search");
-        redirectAttributes.addAttribute("search", search);
+       redirectAttributes.addAttribute("search", search);
         return "redirect:result";
     }
 
